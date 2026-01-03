@@ -13,12 +13,20 @@ export default function HomePage() {
               </div>
               <span className="text-2xl font-bold text-gray-900">FirmaFracta</span>
             </div>
-            <Link 
-              href="/dashboard"
-              className="px-4 py-2 text-sm font-medium text-blue-600 hover:text-blue-700"
-            >
-              Portal
-            </Link>
+            <div className="flex gap-6">
+              <Link 
+                href="/how-it-works"
+                className="px-4 py-2 text-sm font-medium text-gray-700 hover:text-blue-600"
+              >
+                How It Works
+              </Link>
+              <Link 
+                href="/dashboard"
+                className="px-4 py-2 text-sm font-medium text-blue-600 hover:text-blue-700"
+              >
+                Portal
+              </Link>
+            </div>
           </div>
         </div>
       </header>
@@ -61,8 +69,14 @@ export default function HomePage() {
               Request Access
             </a>
             <Link
-              href="/dashboard"
+              href="/how-it-works"
               className="px-8 py-3 bg-white text-blue-600 font-semibold rounded-lg hover:bg-gray-50 transition-colors border-2 border-blue-600"
+            >
+              Learn How It Works
+            </Link>
+            <Link
+              href="/dashboard"
+              className="px-8 py-3 bg-gray-100 text-gray-700 font-semibold rounded-lg hover:bg-gray-200 transition-colors"
             >
               View Demo Portal
             </Link>
