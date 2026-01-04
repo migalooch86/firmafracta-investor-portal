@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="500" height="600" viewBox="0 0 500 600" xmlns="http://www.w3.org/2000/svg">
+  <rect width="500" height="600" fill="#0f172a"/>
+  <g>
+    <rect x="20" y="20" width="460" height="140" fill="#1e293b" rx="8"/>
+    <rect x="40" y="40" width="420" height="50" fill="#0f172a" rx="6"/>
+    <text x="250" y="62" font-family="system-ui, sans-serif" font-size="26" font-weight="800" fill="#10b981" text-anchor="middle">FUNDER ROI DASHBOARD</text>
+    <text x="250" y="82" font-family="system-ui, sans-serif" font-size="13" font-weight="600" fill="#94a3b8" text-anchor="middle">12 Funded Research Articles • Active Portfolio</text>
+    <rect x="180" y="105" width="140" height="36" fill="#3b82f6" rx="6"/>
+    <text x="250" y="130" font-family="system-ui, sans-serif" font-size="18" font-weight="700" fill="white" text-anchor="middle">24.3% Portfolio ROI</text>
+  </g>
+  
+  <!-- Top Performing Articles -->
+  <g transform="translate(20, 185)">
+    <text x="0" y="0" font-family="system-ui, sans-serif" font-size="14" font-weight="700" fill="#f1f5f9">Top Performing Funded DOIs</text>
+    <text x="0" y="20" font-family="system-ui, sans-serif" font-size="11" fill="#64748b">Ranked by quarterly dividend yield</text>
+    
+    <!-- Article 1 -->
+    <g transform="translate(0, 40)">
+      <rect width="460" height="70" fill="#1e293b" rx="6"/>
+      <rect x="0" y="0" width="8" height="70" fill="#10b981" rx="2"/>
+      <text x="20" y="22" font-family="system-ui, sans-serif" font-size="14" font-weight="600" fill="#f1f5f9">Quantum Entanglement Dynamics</text>
+      <text x="20" y="38" font-family="system-ui, sans-serif" font-size="10" fill="#64748b">10.1038/nature.2024.12345 • Physics</text>
+      <rect x="20" y="45" width="180" height="16" fill="#10b981" rx="3" opacity="0.2"/>
+      <text x="28" y="57" font-family="system-ui, sans-serif" font-size="10" font-weight="600" fill="#10b981">Funded: $25,000 (50 shares)</text>
+      <rect x="340" y="20" width="100" height="30" fill="#10b981" rx="4" opacity="0.15"/>
+      <text x="390" y="35" font-family="system-ui, sans-serif" font-size="13" font-weight="700" fill="#10b981" text-anchor="middle">+$8,420</text>
+      <text x="390" y="50" font-family="system-ui, sans-serif" font-size="9" fill="#64748b" text-anchor="middle">33.7% ROI</text>
+    </g>
+    
+    <!-- Article 2 -->
+    <g transform="translate(0, 120)">
+      <rect width="460" height="70" fill="#1e293b" rx="6"/>
+      <rect x="0" y="0" width="8" height="70" fill="#3b82f6" rx="2"/>
+      <text x="20" y="22" font-family="system-ui, sans-serif" font-size="14" font-weight="600" fill="#f1f5f9">CRISPR Gene Editing Framework</text>
+      <text x="20" y="38" font-family="system-ui, sans-serif" font-size="10" fill="#64748b">10.1016/cell.2024.45678 • Biology</text>
+      <rect x="20" y="45" width="180" height="16" fill="#3b82f6" rx="3" opacity="0.2"/>
+      <text x="28" y="57" font-family="system-ui, sans-serif" font-size="10" font-weight="600" fill="#3b82f6">Funded: $30,000 (40 shares)</text>
+      <rect x="340" y="20" width="100" height="30" fill="#3b82f6" rx="4" opacity="0.15"/>
+      <text x="390" y="35" font-family="system-ui, sans-serif" font-size="13" font-weight="700" fill="#3b82f6" text-anchor="middle">+$7,200</text>
+      <text x="390" y="50" font-family="system-ui, sans-serif" font-size="9" fill="#64748b" text-anchor="middle">24.0% ROI</text>
+    </g>
+    
+    <!-- Article 3 -->
+    <g transform="translate(0, 200)">
+      <rect width="460" height="70" fill="#1e293b" rx="6"/>
+      <rect x="0" y="0" width="8" height="70" fill="#8b5cf6" rx="2"/>
+      <text x="20" y="22" font-family="system-ui, sans-serif" font-size="14" font-weight="600" fill="#f1f5f9">Neural Network Architecture Theory</text>
+      <text x="20" y="38" font-family="system-ui, sans-serif" font-size="10" fill="#64748b">10.1145/ai.2024.78901 • Computer Science</text>
+      <rect x="20" y="45" width="180" height="16" fill="#8b5cf6" rx="3" opacity="0.2"/>
+      <text x="28" y="57" font-family="system-ui, sans-serif" font-size="10" font-weight="600" fill="#8b5cf6">Funded: $20,000 (30 shares)</text>
+      <rect x="340" y="20" width="100" height="30" fill="#8b5cf6" rx="4" opacity="0.15"/>
+      <text x="390" y="35" font-family="system-ui, sans-serif" font-size="13" font-weight="700" fill="#8b5cf6" text-anchor="middle">+$4,100</text>
+      <text x="390" y="50" font-family="system-ui, sans-serif" font-size="9" fill="#64748b" text-anchor="middle">20.5% ROI</text>
+    </g>
+    
+    <!-- Article 4 -->
+    <g transform="translate(0, 280)">
+      <rect width="460" height="70" fill="#1e293b" rx="6"/>
+      <rect x="0" y="0" width="8" height="70" fill="#06b6d4" rx="2"/>
+      <text x="20" y="22" font-family="system-ui, sans-serif" font-size="14" font-weight="600" fill="#f1f5f9">Climate Modeling Methodology</text>
+      <text x="20" y="38" font-family="system-ui, sans-serif" font-size="10" fill="#64748b">10.1126/science.2024.23456 • Climate</text>
+      <rect x="20" y="45" width="180" height="16" fill="#06b6d4" rx="3" opacity="0.2"/>
+      <text x="28" y="57" font-family="system-ui, sans-serif" font-size="10" font-weight="600" fill="#06b6d4">Funded: $15,000 (25 shares)</text>
+      <rect x="340" y="20" width="100" height="30" fill="#06b6d4" rx="4" opacity="0.15"/>
+      <text x="390" y="35" font-family="system-ui, sans-serif" font-size="13" font-weight="700" fill="#06b6d4" text-anchor="middle">+$2,550</text>
+      <text x="390" y="50" font-family="system-ui, sans-serif" font-size="9" fill="#64748b" text-anchor="middle">17.0% ROI</text>
+    </g>
+  </g>
+  
+  <!-- Summary Stats -->
+  <g transform="translate(20, 550)">
+    <rect width="460" height="30" fill="#1e293b" rx="6"/>
+    <text x="20" y="20" font-family="system-ui, sans-serif" font-size="11" font-weight="600" fill="#94a3b8">Total Funded: $90,000</text>
+    <text x="440" y="20" font-family="system-ui, sans-serif" font-size="11" font-weight="700" fill="#10b981" text-anchor="end">Total Returns: $22,270</text>
+  </g>
+</svg>

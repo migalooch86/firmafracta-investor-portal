@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="500" height="600" viewBox="0 0 500 600" xmlns="http://www.w3.org/2000/svg">
+  <rect width="500" height="600" fill="#0f172a"/>
+  <g>
+    <rect x="20" y="20" width="460" height="140" fill="#1e293b" rx="8"/>
+    <rect x="40" y="40" width="420" height="50" fill="#0f172a" rx="6"/>
+    <text x="250" y="62" font-family="system-ui, sans-serif" font-size="26" font-weight="800" fill="#8b5cf6" text-anchor="middle">REVIEWER EARNINGS WALLET</text>
+    <text x="250" y="82" font-family="system-ui, sans-serif" font-size="13" font-weight="600" fill="#94a3b8" text-anchor="middle">60 Articles Reviewed • 2-Year Period (2024-2025)</text>
+    <rect x="160" y="105" width="180" height="36" fill="#8b5cf6" rx="6"/>
+    <text x="250" y="130" font-family="system-ui, sans-serif" font-size="18" font-weight="700" fill="white" text-anchor="middle">$48,600 Total Earned</text>
+  </g>
+  
+  <!-- Earnings Breakdown -->
+  <g transform="translate(20, 185)">
+    <text x="0" y="0" font-family="system-ui, sans-serif" font-size="14" font-weight="700" fill="#f1f5f9">Quarterly Dividend History</text>
+    <text x="0" y="20" font-family="system-ui, sans-serif" font-size="11" fill="#64748b">Ownership stakes earned through peer review</text>
+    
+    <!-- Q4 2025 -->
+    <g transform="translate(0, 40)">
+      <rect width="460" height="55" fill="#1e293b" rx="6"/>
+      <rect x="0" y="0" width="8" height="55" fill="#8b5cf6" rx="2"/>
+      <text x="20" y="20" font-family="system-ui, sans-serif" font-size="13" font-weight="600" fill="#f1f5f9">Q4 2025</text>
+      <text x="20" y="38" font-family="system-ui, sans-serif" font-size="10" fill="#64748b">18 articles • 90 shares total</text>
+      <rect x="320" y="12" width="120" height="30" fill="#8b5cf6" rx="4" opacity="0.15"/>
+      <text x="380" y="32" font-family="system-ui, sans-serif" font-size="16" font-weight="700" fill="#8b5cf6" text-anchor="middle">$8,100</text>
+    </g>
+    
+    <!-- Q3 2025 -->
+    <g transform="translate(0, 105)">
+      <rect width="460" height="55" fill="#1e293b" rx="6"/>
+      <rect x="0" y="0" width="8" height="55" fill="#8b5cf6" rx="2"/>
+      <text x="20" y="20" font-family="system-ui, sans-serif" font-size="13" font-weight="600" fill="#f1f5f9">Q3 2025</text>
+      <text x="20" y="38" font-family="system-ui, sans-serif" font-size="10" fill="#64748b">16 articles • 80 shares total</text>
+      <rect x="320" y="12" width="120" height="30" fill="#8b5cf6" rx="4" opacity="0.15"/>
+      <text x="380" y="32" font-family="system-ui, sans-serif" font-size="16" font-weight="700" fill="#8b5cf6" text-anchor="middle">$7,200</text>
+    </g>
+    
+    <!-- Q2 2025 -->
+    <g transform="translate(0, 170)">
+      <rect width="460" height="55" fill="#1e293b" rx="6"/>
+      <rect x="0" y="0" width="8" height="55" fill="#8b5cf6" rx="2"/>
+      <text x="20" y="20" font-family="system-ui, sans-serif" font-size="13" font-weight="600" fill="#f1f5f9">Q2 2025</text>
+      <text x="20" y="38" font-family="system-ui, sans-serif" font-size="10" fill="#64748b">14 articles • 70 shares total</text>
+      <rect x="320" y="12" width="120" height="30" fill="#8b5cf6" rx="4" opacity="0.15"/>
+      <text x="380" y="32" font-family="system-ui, sans-serif" font-size="16" font-weight="700" fill="#8b5cf6" text-anchor="middle">$6,300</text>
+    </g>
+    
+    <!-- Q1 2025 -->
+    <g transform="translate(0, 235)">
+      <rect width="460" height="55" fill="#1e293b" rx="6"/>
+      <rect x="0" y="0" width="8" height="55" fill="#8b5cf6" rx="2"/>
+      <text x="20" y="20" font-family="system-ui, sans-serif" font-size="13" font-weight="600" fill="#f1f5f9">Q1 2025</text>
+      <text x="20" y="38" font-family="system-ui, sans-serif" font-size="10" fill="#64748b">12 articles • 60 shares total</text>
+      <rect x="320" y="12" width="120" height="30" fill="#3b82f6" rx="4" opacity="0.15"/>
+      <text x="380" y="32" font-family="system-ui, sans-serif" font-size="16" font-weight="700" fill="#3b82f6" text-anchor="middle">$5,400</text>
+    </g>
+    
+    <!-- 2024 Annual -->
+    <g transform="translate(0, 300)">
+      <rect width="460" height="55" fill="#1e293b" rx="6"/>
+      <rect x="0" y="0" width="460" height="55" fill="#10b981" rx="6" opacity="0.05"/>
+      <rect x="0" y="0" width="8" height="55" fill="#10b981" rx="2"/>
+      <text x="20" y="20" font-family="system-ui, sans-serif" font-size="13" font-weight="700" fill="#f1f5f9">2024 Total (4 Quarters)</text>
+      <text x="20" y="38" font-family="system-ui, sans-serif" font-size="10" fill="#64748b">All quarters combined</text>
+      <rect x="320" y="12" width="120" height="30" fill="#10b981" rx="4" opacity="0.15"/>
+      <text x="380" y="32" font-family="system-ui, sans-serif" font-size="16" font-weight="700" fill="#10b981" text-anchor="middle">$21,600</text>
+    </g>
+  </g>
+  
+  <!-- Portfolio Summary -->
+  <g transform="translate(20, 550)">
+    <rect width="222" height="30" fill="#1e293b" rx="6"/>
+    <text x="16" y="20" font-family="system-ui, sans-serif" font-size="10" font-weight="600" fill="#94a3b8">Active Shares:</text>
+    <text x="206" y="20" font-family="system-ui, sans-serif" font-size="11" font-weight="700" fill="#8b5cf6" text-anchor="end">300</text>
+    
+    <rect x="238" y="0" width="222" height="30" fill="#1e293b" rx="6"/>
+    <text x="254" y="20" font-family="system-ui, sans-serif" font-size="10" font-weight="600" fill="#94a3b8">Avg. per Quarter:</text>
+    <text x="444" y="20" font-family="system-ui, sans-serif" font-size="11" font-weight="700" fill="#10b981" text-anchor="end">$6,075</text>
+  </g>
+</svg>
