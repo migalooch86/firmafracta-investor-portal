@@ -129,14 +129,14 @@ export default function HomePage() {
           <div className="grid md:grid-cols-2 gap-16 items-center">
             <div>
               <div className="inline-block px-4 py-1 bg-slate-100 text-slate-700 text-sm font-semibold rounded-full mb-4">About FirmaFracta</div>
-              <h2 className="text-5xl font-bold mb-8 text-slate-900">Institutional Platform for Academic Assets</h2>
+              <h2 className="text-5xl font-bold mb-8 text-slate-900">Institutional Platform for Academic Research Assets</h2>
               <div className="space-y-6 text-lg text-slate-600 leading-relaxed">
                 <p>
-                  FirmaFracta tokenizes academic articles as NFT-backed revenue-generating assets. Each published article mints as a blockchain token, fractionalizes into 100 shares, and automatically distributes ownership to authors, reviewers, publishers, and investors based on configurable allocations. Smart contracts then track real-world usage—citations, downloads, paid access—and distribute quarterly dividends proportionally. Full KYC/AML compliance ensures regulatory standards; transparent on-chain records eliminate disputes.
+                  FirmaFracta converts published research into revenue-generating digital assets. Each article becomes a blockchain-secured token, fractionalized into 100 shares, with configurable ownership distributed to authors, reviewers, publishers, and investors. Smart contracts track real-world usage—citations, downloads, institutional access—and distribute quarterly dividends proportionally. Full KYC/AML compliance ensures regulatory adherence; transparent on-chain records provide immutable audit trails.
                 </p>
                 <h3 className="text-xl font-bold text-slate-900 pt-4">Why It Matters:</h3>
                 <p>
-                  Research has massive societal impact but authors and reviewers aren't compensated for ongoing value creation. Publishers capture profits while contributors earn nothing after publication. FirmaFracta flips this: authors get lifetime royalties from their work's impact, reviewers gain ownership stakes (solving the peer review compensation crisis), publishers unlock new revenue streams, and accredited investors can now participate in high-impact research like any other asset class. It transforms the research economy from one-time publication payments into continuous, usage-based value sharing—aligning incentives so more people profit from advancing human knowledge.
+                  Research generates significant long-term value, but current models do not capture it. FirmaFracta enables continuous value capture: authors earn lifetime royalties from their work's ongoing impact, reviewers receive ownership stakes for their contributions, publishers access new revenue streams from existing catalogs, and accredited investors gain exposure to high-impact research as a trackable asset class. The platform transforms research economics from one-time transactions into usage-based value sharing—ensuring all contributors benefit as knowledge advances.
                 </p>
               </div>
               <ul className="mt-8 space-y-3 text-slate-600">
@@ -150,7 +150,7 @@ export default function HomePage() {
                 </li>
                 <li className="flex items-start">
                   <span className="text-blue-600 mr-3 font-bold">✓</span>
-                  <span>Diversified portfolios across 50+ research disciplines and impact factors</span>
+                  <span>Diversified portfolios across 50+ research disciplines and impact tiers</span>
                 </li>
                 <li className="flex items-start">
                   <span className="text-blue-600 mr-3 font-bold">✓</span>
@@ -158,11 +158,11 @@ export default function HomePage() {
                 </li>
                 <li className="flex items-start">
                   <span className="text-blue-600 mr-3 font-bold">✓</span>
-                  <span>Blockchain-verified ownership records and transparent transaction history</span>
+                  <span>Blockchain-verified ownership records with transparent transaction history</span>
                 </li>
                 <li className="flex items-start">
                   <span className="text-blue-600 mr-3 font-bold">✓</span>
-                  <span>Institutional-grade custody and compliance infrastructure</span>
+                  <span>Institutional-grade custody and regulatory compliance infrastructure</span>
                 </li>
               </ul>
             </div>
