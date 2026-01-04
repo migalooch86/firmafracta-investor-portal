@@ -76,7 +76,7 @@ export default function HomePage() {
               </div>
               <div className="mt-8 sm:mt-12 pt-8 sm:pt-12 border-t border-slate-700">
                 <blockquote className="text-lg sm:text-xl lg:text-2xl font-medium text-slate-200 italic leading-relaxed">
-                  FirmaFracta introduces a new paradigm in scientific publishing—aligning incentives across all stakeholders and delivering clear ROI to funders and investors, accelerating discovery, and fostering a more competitive submissions and reviewer market.
+                  FirmaFracta introduces a new paradigm in scientific publishing—aligning incentives across all stakeholders and delivering clear ROI to funders and investors, while accelerating discovery.
                 </blockquote>
               </div>
             </div>
