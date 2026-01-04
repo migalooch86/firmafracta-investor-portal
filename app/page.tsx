@@ -29,8 +29,8 @@ export default function HomePage() {
                 <span className="text-blue-400 text-sm font-medium">Institutional-Grade Investment Platform</span>
               </div>
               <h1 className="text-5xl md:text-6xl font-bold mb-6 leading-tight text-white">
-                Pioneering the Future of
-                <span className="block text-transparent bg-clip-text bg-gradient-to-r from-blue-400 to-cyan-400">Academic Investment</span>
+                The New Asset Class for
+                <span className="block text-transparent bg-clip-text bg-gradient-to-r from-blue-400 to-cyan-400">Research Impact</span>
               </h1>
               <p className="text-xl text-slate-300 mb-8 leading-relaxed">
                 Invest in groundbreaking research through fractional ownership. Earn quarterly dividends based on real-world article performance and citations.
@@ -132,13 +132,11 @@ export default function HomePage() {
               <h2 className="text-5xl font-bold mb-8 text-slate-900">Institutional Platform for Academic Assets</h2>
               <div className="space-y-6 text-lg text-slate-600 leading-relaxed">
                 <p>
-                  FirmaFracta operates as an SEC-compliant investment platform that tokenizes peer-reviewed academic research articles into fractional ownership units. Each article is represented as a security token backed by verifiable intellectual property rights, creating a liquid market for research assets previously inaccessible to institutional investors.
+                  FirmaFracta tokenizes academic articles as NFT-backed revenue-generating assets. Each published article mints as a blockchain token, fractionalizes into 100 shares, and automatically distributes ownership to authors, reviewers, publishers, and investors based on configurable allocations. Smart contracts then track real-world usage—citations, downloads, paid access—and distribute quarterly dividends proportionally. Full KYC/AML compliance ensures regulatory standards; transparent on-chain records eliminate disputes.
                 </p>
+                <h3 className="text-xl font-bold text-slate-900 pt-4">Why It Matters:</h3>
                 <p>
-                  Our infrastructure enables fractional ownership through blockchain-based securities that provide quarterly dividend distributions derived from article licensing fees, institutional access revenues, and citation-based performance metrics. All transactions comply with federal securities regulations and accredited investor requirements.
-                </p>
-                <p>
-                  The platform aggregates research across multiple disciplines into diversified index funds, allowing investors to build portfolios optimized for risk-adjusted returns based on journal impact factors, citation velocity, and historical usage patterns across academic institutions worldwide.
+                  Research has massive societal impact but authors and reviewers aren't compensated for ongoing value creation. Publishers capture profits while contributors earn nothing after publication. FirmaFracta flips this: authors get lifetime royalties from their work's impact, reviewers gain ownership stakes (solving the peer review compensation crisis), publishers unlock new revenue streams, and accredited investors can now participate in high-impact research like any other asset class. It transforms the research economy from one-time publication payments into continuous, usage-based value sharing—aligning incentives so more people profit from advancing human knowledge.
                 </p>
               </div>
               <ul className="mt-8 space-y-3 text-slate-600">
