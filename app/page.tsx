@@ -2,49 +2,65 @@ export default function HomePage() {
   return (
     <div className="min-h-screen">
       {/* Navigation */}
-      <nav className="fixed w-full top-0 z-50 bg-white shadow-sm">
+      <nav className="fixed w-full top-0 z-50 bg-slate-900 border-b border-slate-800">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <div className="flex justify-between items-center h-16">
-            <a href="/" className="flex items-center space-x-2">
-              <div className="w-10 h-10 bg-blue-600 rounded-lg flex items-center justify-center">
-                <span className="text-white text-xl font-bold">F</span>
-              </div>
-              <span className="text-xl font-bold text-gray-900">FirmaFracta</span>
+          <div className="flex justify-between items-center h-20">
+            <a href="/" className="flex items-center space-x-3">
+              <img src="/logo.svg" alt="FirmaFracta Logo" className="w-10 h-10" />
+              <span className="text-xl font-semibold text-white tracking-tight">FirmaFracta</span>
             </a>
             <ul className="hidden md:flex items-center space-x-8">
-              <li><a href="#home" className="text-gray-700 hover:text-blue-600 font-medium">Home</a></li>
-              <li><a href="#features" className="text-gray-700 hover:text-blue-600 font-medium">Features</a></li>
-              <li><a href="#about" className="text-gray-700 hover:text-blue-600 font-medium">About</a></li>
-              <li><a href="#contact" className="text-gray-700 hover:text-blue-600 font-medium">Contact</a></li>
-              <li><a href="#login" className="px-4 py-2 bg-blue-600 text-white rounded-lg hover:bg-blue-700 transition-colors">Login</a></li>
+              <li><a href="#home" className="text-slate-300 hover:text-white font-medium transition-colors">Home</a></li>
+              <li><a href="#features" className="text-slate-300 hover:text-white font-medium transition-colors">Services</a></li>
+              <li><a href="#about" className="text-slate-300 hover:text-white font-medium transition-colors">About</a></li>
+              <li><a href="#login" className="px-6 py-2.5 bg-blue-600 text-white font-medium hover:bg-blue-700 transition-colors">Investor Login</a></li>
             </ul>
           </div>
         </div>
       </nav>
 
       {/* Hero Section */}
-      <section id="home" className="mt-16 py-20 bg-gradient-to-br from-[#667eea] to-[#764ba2] text-white">
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <div className="grid md:grid-cols-2 gap-12 items-center">
+      <section id="home" className="relative mt-20 py-32 bg-gradient-to-br from-slate-900 via-slate-800 to-slate-900">
+        <div className="absolute inset-0 bg-[url('data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iNjAiIGhlaWdodD0iNjAiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+PGRlZnM+PHBhdHRlcm4gaWQ9ImdyaWQiIHdpZHRoPSI2MCIgaGVpZ2h0PSI2MCIgcGF0dGVyblVuaXRzPSJ1c2VyU3BhY2VPblVzZSI+PHBhdGggZD0iTSAxMCAwIEwgMCAwIDAgMTAiIGZpbGw9Im5vbmUiIHN0cm9rZT0icmdiYSgyNTUsMjU1LDI1NSwwLjAzKSIgc3Ryb2tlLXdpZHRoPSIxIi8+PC9wYXR0ZXJuPjwvZGVmcz48cmVjdCB3aWR0aD0iMTAwJSIgaGVpZ2h0PSIxMDAlIiBmaWxsPSJ1cmwoI2dyaWQpIi8+PC9zdmc+')] opacity-40"></div>
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative">
+          <div className="grid md:grid-cols-2 gap-16 items-center">
             <div>
-              <h1 className="text-5xl font-bold mb-6 leading-tight">
-                The Paradigm is as dead as Gutenberg.
+              <div className="inline-block px-4 py-2 bg-blue-600/10 border border-blue-500/20 rounded-full mb-6">
+                <span className="text-blue-400 text-sm font-medium">Institutional-Grade Investment Platform</span>
+              </div>
+              <h1 className="text-5xl md:text-6xl font-bold mb-6 leading-tight text-white">
+                Pioneering the Future of
+                <span className="block text-transparent bg-clip-text bg-gradient-to-r from-blue-400 to-cyan-400">Academic Investment</span>
               </h1>
-              <p className="text-xl mb-8 opacity-90">
-                Introducing Fractional Ownership and Dividend Distribution for Research Articles.
+              <p className="text-xl text-slate-300 mb-8 leading-relaxed">
+                Invest in groundbreaking research through fractional ownership. Earn quarterly dividends based on real-world article performance and citations.
               </p>
               <div className="flex gap-4">
-                <a href="#contact" className="px-8 py-3 bg-white text-blue-600 rounded-lg font-semibold hover:shadow-lg transition-all">
-                  Get Started
-                </a>
-                <a href="#features" className="px-8 py-3 border-2 border-white text-white rounded-lg font-semibold hover:bg-white/10 transition-all">
+                <a href="#about" className="px-8 py-4 bg-blue-600 text-white font-semibold hover:bg-blue-700 transition-colors shadow-lg shadow-blue-600/20">
                   Learn More
                 </a>
+                <a href="#features" className="px-8 py-4 border-2 border-slate-600 text-white font-semibold hover:bg-slate-800 transition-colors">
+                  Our Services
+                </a>
+              </div>
+              <div className="grid grid-cols-3 gap-8 mt-12 pt-12 border-t border-slate-700">
+                <div>
+                  <div className="text-3xl font-bold text-white mb-1">$15K</div>
+                  <div className="text-sm text-slate-400">Avg. Article Value</div>
+                </div>
+                <div>
+                  <div className="text-3xl font-bold text-white mb-1">100</div>
+                  <div className="text-sm text-slate-400">Shares per Article</div>
+                </div>
+                <div>
+                  <div className="text-3xl font-bold text-white mb-1">Q4</div>
+                  <div className="text-sm text-slate-400">Dividend Schedule</div>
+                </div>
               </div>
             </div>
             <div className="flex justify-center">
-              <div className="w-full max-w-md aspect-[4/3] bg-black/20 rounded-xl backdrop-blur-sm border border-white/10 flex items-center justify-center">
-                <span className="text-white/50 text-sm">Chart Visualization</span>
+              <div className="w-full max-w-md">
+                <img src="/portfolio-dashboard.svg" alt="Portfolio Analytics Dashboard" className="w-full h-auto shadow-2xl rounded-2xl border border-slate-700" />
               </div>
             </div>
           </div>
@@ -52,22 +68,55 @@ export default function HomePage() {
       </section>
 
       {/* Features Section */}
-      <section id="features" className="py-20 bg-gray-50">
+      <section id="features" className="py-32 bg-gradient-to-b from-white to-slate-50">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <h2 className="text-4xl font-bold text-center mb-12 text-gray-900">Why Choose FirmaFracta</h2>
-          <div className="grid md:grid-cols-3 gap-8">
+          <div className="text-center mb-20">
+            <div className="inline-block px-4 py-1 bg-slate-100 text-slate-700 text-sm font-semibold rounded-full mb-4">Our Services</div>
+            <h2 className="text-5xl font-bold mb-6 text-slate-900">Investment Solutions</h2>
+            <p className="text-xl text-slate-600 max-w-2xl mx-auto leading-relaxed">Institutional-grade platform for fractional ownership of academic research assets</p>
+          </div>
+          <div className="grid md:grid-cols-3 gap-6">
             {[
-              { icon: '📊', title: 'Real-Time Analytics', desc: 'Monitor your investments with live data and comprehensive analytics dashboards.' },
-              { icon: '🔒', title: 'Bank-Level Security', desc: 'Your data is protected with enterprise-grade encryption and security protocols.' },
-              { icon: '📱', title: 'Mobile Access', desc: 'Manage your portfolio anywhere, anytime with our responsive platform.' },
-              { icon: '📈', title: 'Performance Tracking', desc: 'Track ROI, portfolio growth, and detailed investment performance metrics.' },
-              { icon: '💼', title: 'Portfolio Diversification', desc: 'Visualize asset allocation and optimize your investment strategy.' },
-              { icon: '📄', title: 'Detailed Reports', desc: 'Generate comprehensive reports and export data for tax purposes.' },
+              { 
+                icon: <svg className="w-8 h-8" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 19v-6a2 2 0 00-2-2H5a2 2 0 00-2 2v6a2 2 0 002 2h2a2 2 0 002-2zm0 0V9a2 2 0 012-2h2a2 2 0 012 2v10m-6 0a2 2 0 002 2h2a2 2 0 002-2m0 0V5a2 2 0 012-2h2a2 2 0 012 2v14a2 2 0 01-2 2h-2a2 2 0 01-2-2z" /></svg>,
+                title: 'Portfolio Management', 
+                desc: 'Institutional-grade tools to track holdings, dividends, and performance across your academic research investments.' 
+              },
+              { 
+                icon: <svg className="w-8 h-8" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M12 15v2m-6 4h12a2 2 0 002-2v-6a2 2 0 00-2-2H6a2 2 0 00-2 2v6a2 2 0 002 2zm10-10V7a4 4 0 00-8 0v4h8z" /></svg>,
+                title: 'Regulatory Compliance', 
+                desc: 'Full KYC/AML compliance and accredited investor verification ensuring secure, compliant transactions.' 
+              },
+              { 
+                icon: <svg className="w-8 h-8" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M13 7h8m0 0v8m0-8l-8 8-4-4-6 6" /></svg>,
+                title: 'Performance Analytics', 
+                desc: 'Real-time metrics tracking article citations, downloads, and usage to forecast dividend returns.' 
+              },
+              { 
+                icon: <svg className="w-8 h-8" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M21 13.255A23.931 23.931 0 0112 15c-3.183 0-6.22-.62-9-1.745M16 6V4a2 2 0 00-2-2h-4a2 2 0 00-2 2v2m4 6h.01M5 20h14a2 2 0 002-2V8a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z" /></svg>,
+                title: 'Asset Allocation', 
+                desc: 'Diversify across disciplines, publishers, and impact factors to optimize risk-adjusted returns.' 
+              },
+              { 
+                icon: <svg className="w-8 h-8" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M12 8c-1.657 0-3 .895-3 2s1.343 2 3 2 3 .895 3 2-1.343 2-3 2m0-8c1.11 0 2.08.402 2.599 1M12 8V7m0 1v8m0 0v1m0-1c-1.11 0-2.08-.402-2.599-1M21 12a9 9 0 11-18 0 9 9 0 0118 0z" /></svg>,
+                title: 'Quarterly Dividends', 
+                desc: 'Transparent, blockchain-verified dividend distribution based on actual article usage and performance.' 
+              },
+              { 
+                icon: <svg className="w-8 h-8" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 12h6m-6 4h6m2 5H7a2 2 0 01-2-2V5a2 2 0 012-2h5.586a1 1 0 01.707.293l5.414 5.414a1 1 0 01.293.707V19a2 2 0 01-2 2z" /></svg>,
+                title: 'Investment Reports', 
+                desc: 'Detailed quarterly statements, tax documents, and comprehensive portfolio analysis.' 
+              },
             ].map((feature, i) => (
-              <div key={i} className="bg-white p-8 rounded-xl shadow-sm hover:shadow-md transition-shadow">
-                <div className="text-4xl mb-4">{feature.icon}</div>
-                <h3 className="text-xl font-semibold mb-3 text-gray-900">{feature.title}</h3>
-                <p className="text-gray-600">{feature.desc}</p>
+              <div key={i} className="group relative bg-white p-10 hover:shadow-2xl hover:shadow-blue-600/5 transition-all duration-300 border border-slate-200/60 hover:border-blue-200">
+                <div className="absolute inset-0 bg-gradient-to-br from-blue-50/0 to-blue-50/0 group-hover:from-blue-50/50 group-hover:to-transparent transition-all duration-300"></div>
+                <div className="relative">
+                  <div className="inline-flex items-center justify-center w-16 h-16 mb-6 bg-slate-50 text-slate-700 group-hover:bg-blue-600 group-hover:text-white transition-all duration-300">
+                    {feature.icon}
+                  </div>
+                  <h3 className="text-xl font-semibold mb-4 text-slate-900">{feature.title}</h3>
+                  <p className="text-slate-600 leading-relaxed">{feature.desc}</p>
+                </div>
               </div>
             ))}
           </div>
@@ -75,31 +124,53 @@ export default function HomePage() {
       </section>
 
       {/* About Section */}
-      <section id="about" className="py-20 bg-white">
+      <section id="about" className="py-32 bg-white">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <div className="grid md:grid-cols-2 gap-12 items-center">
+          <div className="grid md:grid-cols-2 gap-16 items-center">
             <div>
-              <h2 className="text-4xl font-bold mb-6 text-gray-900">About FirmaFracta</h2>
-              <p className="text-lg text-gray-600 mb-6">
-                FirmaFracta is a fintech platform pioneering fractional ownership and usage-based dividend distribution for academic research. We enable researchers, publishers, and investors to share in the economic value of high-impact articles through transparent, blockchain-backed revenue sharing.
-              </p>
-              <ul className="space-y-3">
-                {[
-                  'Blockchain-Backed Revenue Sharing',
-                  'Smart Contract Automation',
-                  'Full KYC/AML/Accreditation Compliance',
-                  'Real-World Usage Metrics'
-                ].map((item, i) => (
-                  <li key={i} className="flex items-center text-gray-700">
-                    <span className="text-green-500 mr-3 text-xl">✓</span>
-                    {item}
-                  </li>
-                ))}
+              <div className="inline-block px-4 py-1 bg-slate-100 text-slate-700 text-sm font-semibold rounded-full mb-4">About FirmaFracta</div>
+              <h2 className="text-5xl font-bold mb-8 text-slate-900">Institutional Platform for Academic Assets</h2>
+              <div className="space-y-6 text-lg text-slate-600 leading-relaxed">
+                <p>
+                  FirmaFracta operates as an SEC-compliant investment platform that tokenizes peer-reviewed academic research articles into fractional ownership units. Each article is represented as a security token backed by verifiable intellectual property rights, creating a liquid market for research assets previously inaccessible to institutional investors.
+                </p>
+                <p>
+                  Our infrastructure enables fractional ownership through blockchain-based securities that provide quarterly dividend distributions derived from article licensing fees, institutional access revenues, and citation-based performance metrics. All transactions comply with federal securities regulations and accredited investor requirements.
+                </p>
+                <p>
+                  The platform aggregates research across multiple disciplines into diversified index funds, allowing investors to build portfolios optimized for risk-adjusted returns based on journal impact factors, citation velocity, and historical usage patterns across academic institutions worldwide.
+                </p>
+              </div>
+              <ul className="mt-8 space-y-3 text-slate-600">
+                <li className="flex items-start">
+                  <span className="text-blue-600 mr-3 font-bold">✓</span>
+                  <span>SEC-compliant Reg D/Reg S security token framework with full KYC/AML</span>
+                </li>
+                <li className="flex items-start">
+                  <span className="text-blue-600 mr-3 font-bold">✓</span>
+                  <span>Quarterly dividend distributions from verified licensing and usage revenue</span>
+                </li>
+                <li className="flex items-start">
+                  <span className="text-blue-600 mr-3 font-bold">✓</span>
+                  <span>Diversified portfolios across 50+ research disciplines and impact factors</span>
+                </li>
+                <li className="flex items-start">
+                  <span className="text-blue-600 mr-3 font-bold">✓</span>
+                  <span>Real-time performance tracking via citation metrics and institutional access data</span>
+                </li>
+                <li className="flex items-start">
+                  <span className="text-blue-600 mr-3 font-bold">✓</span>
+                  <span>Blockchain-verified ownership records and transparent transaction history</span>
+                </li>
+                <li className="flex items-start">
+                  <span className="text-blue-600 mr-3 font-bold">✓</span>
+                  <span>Institutional-grade custody and compliance infrastructure</span>
+                </li>
               </ul>
             </div>
-            <div className="flex justify-center">
-              <div className="w-full max-w-md">
-                <img src="/academic-index-fund.svg" alt="Diversified Academic Research Index Fund" className="w-full h-auto rounded-xl shadow-xl" />
+            <div className="relative">
+              <div className="bg-gradient-to-br from-slate-50 to-white rounded-xl p-8 border border-slate-200 shadow-xl">
+                <img src="/academic-index-fund.svg" alt="Academic Index Fund Diversification" className="w-full h-auto" />
               </div>
             </div>
           </div>
@@ -107,33 +178,38 @@ export default function HomePage() {
       </section>
 
       {/* Footer */}
-      <footer className="bg-gray-900 text-white py-12">
+      <footer className="bg-slate-900 text-white py-16">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <div className="grid md:grid-cols-3 gap-8 mb-8">
+          <div className="grid md:grid-cols-3 gap-12 mb-12">
             <div>
-              <h4 className="text-lg font-semibold mb-4 text-blue-400">FirmaFracta</h4>
-              <p className="text-gray-400">Empowering investors with intelligent portfolio management solutions.</p>
+              <div className="flex items-center space-x-3 mb-4">
+                <img src="/logo.svg" alt="FirmaFracta" className="w-8 h-8" />
+                <h4 className="text-xl font-bold">FirmaFracta</h4>
+              </div>
+              <p className="text-slate-400 leading-relaxed">Institutional investment platform for academic research assets. SEC-compliant security tokens with quarterly dividend distributions.</p>
             </div>
             <div>
-              <h4 className="text-lg font-semibold mb-4 text-blue-400">Quick Links</h4>
+              <h4 className="text-lg font-semibold mb-4 text-white">Platform</h4>
               <ul className="space-y-2">
-                <li><a href="#home" className="text-gray-400 hover:text-white">Home</a></li>
-                <li><a href="#features" className="text-gray-400 hover:text-white">Features</a></li>
-                <li><a href="#about" className="text-gray-400 hover:text-white">About</a></li>
-                <li><a href="#contact" className="text-gray-400 hover:text-white">Contact</a></li>
+                <li><a href="#home" className="text-slate-400 hover:text-white transition-colors">Home</a></li>
+                <li><a href="#features" className="text-slate-400 hover:text-white transition-colors">Investment Solutions</a></li>
+                <li><a href="#about" className="text-slate-400 hover:text-white transition-colors">About</a></li>
               </ul>
             </div>
             <div>
-              <h4 className="text-lg font-semibold mb-4 text-blue-400">Legal</h4>
+              <h4 className="text-lg font-semibold mb-4 text-white">Compliance</h4>
               <ul className="space-y-2">
-                <li><a href="#" className="text-gray-400 hover:text-white">Privacy Policy</a></li>
-                <li><a href="#" className="text-gray-400 hover:text-white">Terms of Service</a></li>
-                <li><a href="#" className="text-gray-400 hover:text-white">Disclaimer</a></li>
+                <li><a href="#" className="text-slate-400 hover:text-white transition-colors">Regulatory Framework</a></li>
+                <li><a href="#" className="text-slate-400 hover:text-white transition-colors">Terms of Service</a></li>
+                <li><a href="#" className="text-slate-400 hover:text-white transition-colors">Risk Disclosure</a></li>
               </ul>
             </div>
           </div>
-          <div className="border-t border-gray-800 pt-8 text-center text-gray-400">
-            <p>&copy; 2026 FirmaFracta. All rights reserved.</p>
+          <div className="border-t border-slate-800 pt-8">
+            <div className="text-center text-slate-400 text-sm">
+              <p className="mb-2">&copy; 2026 FirmaFracta. All rights reserved.</p>
+              <p className="text-xs text-slate-500">Securities offered through registered broker-dealers. Investment advisory services provided by SEC-registered investment advisers. Past performance does not guarantee future results.</p>
+            </div>
           </div>
         </div>
       </footer>
