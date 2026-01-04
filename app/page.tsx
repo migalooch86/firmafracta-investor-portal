@@ -106,35 +106,6 @@ export default function HomePage() {
         </div>
       </section>
 
-      {/* Contact Section */}
-      <section id="contact" className="py-20 bg-gray-50">
-        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <h2 className="text-4xl font-bold text-center mb-12 text-gray-900">Get In Touch</h2>
-          <div className="grid md:grid-cols-2 gap-12">
-            <div>
-              <h3 className="text-2xl font-semibold mb-4 text-gray-900">Contact Information</h3>
-              <p className="text-gray-600 mb-6">Ready to take control of your investments? Reach out to our team.</p>
-              <div className="space-y-4">
-                <div><strong className="text-gray-900">Email:</strong> <span className="text-gray-600">investors@firmafracta.com</span></div>
-                <div><strong className="text-gray-900">Phone:</strong> <span className="text-gray-600">+1 (555) 123-4567</span></div>
-                <div><strong className="text-gray-900">Address:</strong> <span className="text-gray-600">123 Financial District, New York, NY 10004</span></div>
-              </div>
-            </div>
-            <form className="bg-white p-8 rounded-xl shadow-sm">
-              <div className="space-y-4">
-                <input type="text" placeholder="Your Name" className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-blue-500 focus:border-transparent" required />
-                <input type="email" placeholder="Your Email" className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-blue-500 focus:border-transparent" required />
-                <input type="text" placeholder="Subject" className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-blue-500 focus:border-transparent" required />
-                <textarea rows={5} placeholder="Your Message" className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-blue-500 focus:border-transparent" required></textarea>
-                <button type="submit" className="w-full px-8 py-3 bg-blue-600 text-white rounded-lg font-semibold hover:bg-blue-700 transition-colors">
-                  Send Message
-                </button>
-              </div>
-            </form>
-          </div>
-        </div>
-      </section>
-
       {/* Footer */}
       <footer className="bg-gray-900 text-white py-12">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
