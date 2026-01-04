@@ -98,8 +98,8 @@ export default function HomePage() {
               </ul>
             </div>
             <div className="flex justify-center">
-              <div className="w-full max-w-md aspect-[5/6] bg-gradient-to-br from-blue-50 to-purple-50 rounded-xl border border-gray-200 flex items-center justify-center">
-                <span className="text-gray-400">Portfolio Dashboard</span>
+              <div className="w-full max-w-md">
+                <img src="/academic-index-fund.svg" alt="Diversified Academic Research Index Fund" className="w-full h-auto rounded-xl shadow-xl" />
               </div>
             </div>
           </div>
