@@ -25,55 +25,109 @@ export default function HowItWorksPage() {
           A simple explanation of fractional research ownership and usage-based dividends
         </p>
 
-        {/* The Pizza Analogy */}
+        {/* The Process */}
         <div className="bg-white rounded-lg shadow-lg p-8 mb-12">
           <h2 className="text-2xl font-bold text-gray-900 mb-6">
-            Think of an Article as a Pizza
+            How FirmaFracta Works
           </h2>
           
           <p className="text-gray-700 mb-6 leading-relaxed">
-            Instead of the author getting paid once and the publisher keeping the rest forever, 
-            we slice the pizza into shares:
+            Every published article becomes a revenue-generating asset with fractional ownership:
           </p>
 
           {/* The 4 Steps */}
           <div className="space-y-6">
             {/* Step 1 */}
             <div className="border-l-4 border-blue-600 pl-6">
-              <div className="flex items-center mb-2">
+              <div className="flex items-center mb-3">
                 <div className="w-8 h-8 bg-blue-600 text-white rounded-full flex items-center justify-center font-bold text-sm mr-3">
                   1
                 </div>
-                <h3 className="text-lg font-semibold text-gray-900">Article Published</h3>
+                <h3 className="text-lg font-semibold text-gray-900">Article Published → NFT Minted</h3>
               </div>
-              <p className="text-gray-600">
-                Author, publisher, and reviewers each get some shares automatically (their "pizza slices")
-              </p>
+              <div className="space-y-3 text-gray-600">
+                <p>
+                  <strong>When an article is published:</strong>
+                </p>
+                <ul className="list-disc ml-6 space-y-2">
+                  <li><strong>NFT Created:</strong> A unique blockchain token is minted representing the article (Token ID = DOI)</li>
+                  <li><strong>100 Shares Issued:</strong> The NFT is fractionalized into 100 equal shares at $150/share ($15,000 valuation)</li>
+                  <li><strong>Automatic Allocation:</strong>
+                    <ul className="list-circle ml-6 mt-2 space-y-1">
+                      <li>Authors: 20 shares (20%) - Instantly transferred to author wallet</li>
+                      <li>Peer Reviewers: 10 shares (10%) - Split among reviewers</li>
+                      <li>Publisher: 30 shares (30%) - Allocated to publisher treasury</li>
+                      <li>Investors: 40 shares (40%) - Available for purchase ($6,000 total)</li>
+                    </ul>
+                  </li>
+                </ul>
+                <p className="mt-3 text-sm bg-blue-50 p-3 rounded">
+                  <strong>💡 Key:</strong> Authors and reviewers get shares immediately at publication - no purchase required. 
+                  All ownership recorded on blockchain.
+                </p>
+              </div>
             </div>
 
             {/* Step 2 */}
             <div className="border-l-4 border-blue-600 pl-6">
-              <div className="flex items-center mb-2">
+              <div className="flex items-center mb-3">
                 <div className="w-8 h-8 bg-blue-600 text-white rounded-full flex items-center justify-center font-bold text-sm mr-3">
                   2
                 </div>
-                <h3 className="text-lg font-semibold text-gray-900">Investors Buy Shares</h3>
+                <h3 className="text-lg font-semibold text-gray-900">Investors Purchase Shares</h3>
               </div>
-              <p className="text-gray-600">
-                Investors can buy additional slices (fractional ownership). Money from share sales goes to authors and publishers upfront
-              </p>
-            </div>
-
-            {/* Step 3 */}
-            <div className="border-l-4 border-blue-600 pl-6">
-              <div className="flex items-center mb-2">
+              <div className="space-y-3 text-gray-600">
+                <p>
+                  Investors browse articles on the FirmaFracta marketplace and purchase shares:
+                </p>
+                <ul className="list-disc ml-6 space-y-2">
+                  <li>40 shares available per article at $150/share</li>
+                  <li>Purchase requires KYC/AML compliance verification</li>
+                  <li>Share sales revenue distribut3">
                 <div className="w-8 h-8 bg-blue-600 text-white rounded-full flex items-center justify-center font-bold text-sm mr-3">
                   3
                 </div>
-                <h3 className="text-lg font-semibold text-gray-900">Article Gets Used</h3>
+                <h3 className="text-lg font-semibold text-gray-900">Usage Tracked & Scored</h3>
               </div>
-              <p className="text-gray-600">
-                People read it, download it, cite it, apply it. Each use generates revenue (like a tiny payment)
+              <div className="space-y-3 text-gray-600">
+                <p>
+                  Publishers report monthly usage data to FirmaFracta. Each event type has a weighted score:
+                </p>
+                <ul className="list-disc ml-6 space-y-2">
+                  <li><strong>Abstract View:</strong> 1 point</li>
+                  <li><strong>Full Download:</strong> 3 points</li>
+                  <li><strong>Citation:</strong> 5 points</li>
+                  <li><strong>Redemption (paid access):</strong> 8 points</li>
+                </ul>
+                <p className="mt-3">
+                  Usage scores are normalized across all articles to determine each article's share of the dividend pool.
+                </p>
+                <p className="mt-3 text-sm bg-blue-50 p-3 rounded">
+                  <strong>Example:</strong> Article with 1,000 views, 200 downloads, 50 citations = 1,000 + 600 + 250 = 1,850 points
+                </p>
+              </div
+            {/* Step 3 */}
+            <div className="border-l-4 border-blue-3">
+                <div className="w-8 h-8 bg-blue-600 text-white rounded-full flex items-center justify-center font-bold text-sm mr-3">
+                  4
+                </div>
+                <h3 className="text-lg font-semibold text-gray-900">Quarterly Dividends Distributed</h3>
+              </div>
+              <div className="space-y-3 text-gray-600">
+                <p>
+                  Every quarter, FirmaFracta allocates the dividend pool based on usage scores:
+                </p>
+                <ul className="list-disc ml-6 space-y-2">
+                  <li>Total dividend pool distributed proportionally to article performance</li>
+                  <li>Each article's dividend split among all shareholders by ownership %</li>
+                  <li>Payouts sent via blockchain smart contract (transparent & auditable)</li>
+                  <li>Platform fee (7%) and publisher share (30%) deducted automatically</li>
+                </ul>
+                <p className="mt-3 text-sm bg-blue-50 p-3 rounded">
+                  <strong>Example:</strong> Article earns $1,000 in quarterly dividends →<br/>
+                  Authors (20%): $200 | Reviewers (10%): $100 | Publisher (30%): $300 | Investors (40%): $400
+                </p>
+              </diveople read it, download it, cite it, apply it. Each use generates revenue (like a tiny payment)
               </p>
             </div>
 
