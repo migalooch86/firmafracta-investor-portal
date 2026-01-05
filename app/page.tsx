@@ -154,12 +154,21 @@ export default function HomePage() {
           </div>
           
           <div className="space-y-4 sm:space-y-6 text-sm sm:text-base lg:text-lg text-slate-600 leading-relaxed max-w-4xl mx-auto mb-8 sm:mb-12 text-center">
-            <p>
-              FirmaFracta converts published research into revenue-generating digital assets. Each article becomes a blockchain-secured token, fractionalized into 100 shares, with configurable ownership distributed to funders, authors, reviewers, publishers, and investors. Smart contracts track real-world usage—citations, downloads, institutional access—and distribute quarterly dividends proportionally. Full KYC/AML compliance ensures regulatory adherence; transparent on-chain records provide immutable audit trails.
+            <p className="text-left">
+              FirmaFracta converts published research into revenue-generating digital assets.<br />
+              • Each article becomes a blockchain-secured token, fractionalized into 100 shares, with configurable ownership distributed to funders, authors, reviewers, publishers, and investors.<br />
+              • Quarterly dividends distributed proportionally based on smart contracts tied to track real-world usage—citations, downloads, institutional access—to provide an alternative investment that beats the S&amp;P500<br />
+              • Full KYC/AML compliance ensures regulatory adherence; transparent on-chain records provide immutable audit trails.
             </p>
-            <h3 className="text-xl font-bold text-slate-900 pt-4">Why It Matters:</h3>
-            <p>
-              Research generates significant long-term value, but current models do not capture it. FirmaFracta enables continuous value capture: authors earn lifetime royalties from their work's ongoing impact, reviewers receive ownership stakes for their contributions, publishers access new revenue streams from existing catalogs, and accredited investors gain exposure to high-impact research as a trackable asset class. The platform transforms research economics from one-time transactions into usage-based value sharing—ensuring all contributors benefit as knowledge advances.
+            <h3 className="text-xl font-bold text-slate-900 pt-4 text-left">Why It Matters:</h3>
+            <p className="text-left">
+              Research generates significant long-term value, but current models do not capture it. FirmaFracta enables continuous value capture:<br />
+              • Authors earn lifetime royalties from their work's ongoing impact<br />
+              • Funders gain visibility, compliance, and ROI analytics that are not possible with traditional publishing.<br />
+              • Reviewers receive ownership stakes for their contributions<br />
+              • Publishers access new revenue streams without cannibalizing subscriptions<br />
+              • Accredited investors gain exposure to high-impact research as a trackable asset class<br />
+              The platform transforms research economics from one-time transactions into usage-based value sharing—ensuring all contributors benefit as knowledge advances.
             </p>
           </div>
           
