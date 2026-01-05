@@ -1,5 +1,6 @@
-'use client';
-import { useState } from 'react';
+"use client";
+import React, { useState } from 'react';
+import StakeholderCarousel from '../components/StakeholderCarousel';
 
 export default function HomePage() {
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
@@ -64,7 +65,7 @@ export default function HomePage() {
                 <span className="block text-transparent bg-clip-text bg-gradient-to-r from-blue-400 to-cyan-400">Research Impact</span>
               </h1>
               <p className="text-base sm:text-lg lg:text-xl text-slate-300 mb-6 sm:mb-8 leading-relaxed">
-                Invest in groundbreaking research through fractional ownership. Earn quarterly dividends based on real-world article performance and citations.
+                Pioneering a new paradigm in scientific publishing by turning citations into capital.
               </p>
               <div className="flex flex-col sm:flex-row gap-3 sm:gap-4">
                 <a href="#about" className="px-6 sm:px-8 py-3 sm:py-4 bg-blue-600 text-white text-center font-semibold hover:bg-blue-700 transition-colors shadow-lg shadow-blue-600/20 rounded">
@@ -73,11 +74,6 @@ export default function HomePage() {
                 <a href="#features" className="px-6 sm:px-8 py-3 sm:py-4 border-2 border-slate-600 text-white text-center font-semibold hover:bg-slate-800 transition-colors rounded">
                   Our Services
                 </a>
-              </div>
-              <div className="mt-8 sm:mt-12 pt-8 sm:pt-12 border-t border-slate-700">
-                <blockquote className="text-lg sm:text-xl lg:text-2xl font-medium text-slate-200 italic leading-relaxed">
-                  FirmaFracta introduces a new paradigm in scientific publishing—aligning incentives across all stakeholders and delivering clear ROI to funders and investors, while accelerating discovery.
-                </blockquote>
               </div>
             </div>
             <div className="hidden md:flex justify-center">
@@ -88,6 +84,10 @@ export default function HomePage() {
           </div>
         </div>
       </section>
+
+
+      {/* Stakeholder Carousel Section */}
+      <StakeholderCarousel />
 
       {/* Features Section */}
       <section id="features" className="py-16 sm:py-24 lg:py-32 bg-gradient-to-b from-white to-slate-50">
@@ -154,22 +154,30 @@ export default function HomePage() {
           </div>
           
           <div className="space-y-4 sm:space-y-6 text-sm sm:text-base lg:text-lg text-slate-600 leading-relaxed max-w-4xl mx-auto mb-8 sm:mb-12 text-center">
-            <p className="text-left">
-              FirmaFracta converts published research into revenue-generating digital assets.<br />
-              • Each article becomes a blockchain-secured token, fractionalized into 100 shares, with configurable ownership distributed to funders, authors, reviewers, publishers, and investors.<br />
-              • Quarterly dividends distributed proportionally based on smart contracts tied to track real-world usage—citations, downloads, institutional access—to provide an alternative investment that beats the S&amp;P500<br />
-              • Full KYC/AML compliance ensures regulatory adherence; transparent on-chain records provide immutable audit trails.
-            </p>
-            <h3 className="text-xl font-bold text-slate-900 pt-4 text-left">Why It Matters:</h3>
-            <p className="text-left">
-              Research generates significant long-term value, but current models do not capture it. FirmaFracta enables continuous value capture:<br />
-              • Authors earn lifetime royalties from their work's ongoing impact<br />
-              • Funders gain visibility, compliance, and ROI analytics that are not possible with traditional publishing.<br />
-              • Reviewers receive ownership stakes for their contributions<br />
-              • Publishers access new revenue streams without cannibalizing subscriptions<br />
-              • Accredited investors gain exposure to high-impact research as a trackable asset class<br />
-              The platform transforms research economics from one-time transactions into usage-based value sharing—ensuring all contributors benefit as knowledge advances.
-            </p>
+            <div className="flex flex-col items-center gap-6">
+              <p className="max-w-2xl text-center mb-2">
+                FirmaFracta converts published research into revenue-generating digital assets.
+              </p>
+              <ul className="list-disc list-inside max-w-xl mx-auto text-center space-y-4 mb-4">
+                <li>Each article becomes a blockchain-secured token, fractionalized into 100 shares, with configurable ownership distributed to funders, authors, reviewers, publishers, and investors.</li>
+                <li>Quarterly dividends distributed proportionally based on smart contracts tied to track real-world usage—citations, downloads, institutional access—to provide an alternative investment that beats the S&amp;P500.</li>
+                <li>Full KYC/AML compliance ensures regulatory adherence; transparent on-chain records provide immutable audit trails.</li>
+              </ul>
+              <h3 className="text-xl font-bold text-slate-900 pt-2 pb-1 text-center">Why It Matters:</h3>
+              <p className="max-w-2xl text-center mb-2">
+                Research generates significant long-term value, but current models do not capture it. FirmaFracta enables continuous value capture:
+              </p>
+              <ul className="list-disc list-inside max-w-xl mx-auto text-center space-y-4">
+                <li>Authors earn lifetime royalties from their work's ongoing impact</li>
+                <li>Funders gain visibility, compliance, and ROI analytics that are not possible with traditional publishing.</li>
+                <li>Reviewers receive ownership stakes for their contributions</li>
+                <li>Publishers access new revenue streams without cannibalizing subscriptions</li>
+                <li>Accredited investors gain exposure to high-impact research as a trackable asset class</li>
+              </ul>
+              <p className="max-w-2xl text-center mt-2">
+                The platform transforms research economics from one-time transactions into usage-based value sharing—ensuring all contributors benefit as knowledge advances.
+              </p>
+            </div>
           </div>
           
           <ul className="mt-6 sm:mt-8 space-y-2 sm:space-y-3 text-sm sm:text-base text-slate-600 max-w-4xl mx-auto mb-12 sm:mb-16">
