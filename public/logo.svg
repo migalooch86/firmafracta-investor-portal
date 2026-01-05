@@ -1,44 +1,25 @@
-<svg width="40" height="40" viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg">
-  <!-- Sleek refined book with blockchain symbols -->
-  <g>
-    <!-- Book outline - refined curves -->
-    <!-- Left page -->
-        <path d="M5 11 C5 11 8.5 9 12 9 C15.5 9 19 11 19 11 L19 31 C19 31 15.5 29 12 29 C8.5 29 5 31 5 31 Z" 
-          stroke="#fff" stroke-width="2" fill="none" stroke-linejoin="round" stroke-linecap="round"/>
-    
-    <!-- Right page -->
-        <path d="M35 11 C35 11 31.5 9 28 9 C24.5 9 21 11 21 11 L21 31 C21 31 24.5 29 28 29 C31.5 29 35 31 35 31 Z" 
-          stroke="#fff" stroke-width="2" fill="none" stroke-linejoin="round" stroke-linecap="round"/>
-    
-    <!-- Spine line -->
-    <line x1="20" y1="11" x2="20" y2="31" stroke="#fff" stroke-width="2" stroke-linecap="round"/>
-    
-    <!-- Blockchain squares on left page - refined -->
+<svg width="320" height="80" viewBox="0 0 320 80" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="320" height="80" fill="#18181b"/>
+  <g transform="translate(0,-6) scale(2.1)">
+    <!-- Logo (from public/logo.svg, white strokes) -->
     <g>
-      <!-- Top square -->
-      <rect x="8.5" y="15" width="5" height="5" rx="0.5" stroke="#fff" stroke-width="1.5" fill="none"/>
-      <line x1="9.5" y1="17.5" x2="12.5" y2="17.5" stroke="#fff" stroke-width="1"/>
-      
-      <!-- Connection -->
-      <line x1="11" y1="20" x2="11" y2="22" stroke="#fff" stroke-width="1.5"/>
-      
-      <!-- Bottom square -->
-      <rect x="8.5" y="22" width="5" height="5" rx="0.5" stroke="#fff" stroke-width="1.5" fill="none"/>
-      <line x1="9.5" y1="24.5" x2="12.5" y2="24.5" stroke="#fff" stroke-width="1"/>
-    </g>
-    
-    <!-- Blockchain squares on right page - refined -->
-    <g>
-      <!-- Top square -->
-      <rect x="26.5" y="15" width="5" height="5" rx="0.5" stroke="#fff" stroke-width="1.5" fill="none"/>
-      <line x1="27.5" y1="17.5" x2="30.5" y2="17.5" stroke="#fff" stroke-width="1"/>
-      
-      <!-- Connection -->
-      <line x1="29" y1="20" x2="29" y2="22" stroke="#fff" stroke-width="1.5"/>
-      
-      <!-- Bottom square -->
-      <rect x="26.5" y="22" width="5" height="5" rx="0.5" stroke="#fff" stroke-width="1.5" fill="none"/>
-      <line x1="27.5" y1="24.5" x2="30.5" y2="24.5" stroke="#fff" stroke-width="1"/>
+      <path d="M5 11 C5 11 8.5 9 12 9 C15.5 9 19 11 19 11 L19 31 C19 31 15.5 29 12 29 C8.5 29 5 31 5 31 Z" stroke="#0066CC" stroke-width="1.2" fill="none" stroke-linejoin="round" stroke-linecap="round"/>
+      <path d="M35 11 C35 11 31.5 9 28 9 C24.5 9 21 11 21 11 L21 31 C21 31 24.5 29 28 29 C31.5 29 35 31 35 31 Z" stroke="#0066CC" stroke-width="1.2" fill="none" stroke-linejoin="round" stroke-linecap="round"/>
+      <line x1="20" y1="11" x2="20" y2="31" stroke="#0066CC" stroke-width="1.2" stroke-linecap="round"/>
+      <g>
+        <rect x="10" y="15.5" width="4" height="4" rx="0.5" stroke="#fff" stroke-width="0.9" fill="none"/>
+        <line x1="11" y1="17.5" x2="13" y2="17.5" stroke="#fff" stroke-width="0.7"/>
+        <line x1="12" y1="19.5" x2="12" y2="21.5" stroke="#fff" stroke-width="0.9"/>
+        <rect x="10" y="22.5" width="4" height="4" rx="0.5" stroke="#fff" stroke-width="0.9" fill="none"/>
+        <line x1="11" y1="24.5" x2="13" y2="24.5" stroke="#fff" stroke-width="0.7"/>
+      </g>
+      <g>
+        <rect x="26" y="15.5" width="4" height="4" rx="0.5" stroke="#fff" stroke-width="0.9" fill="none"/>
+        <line x1="27" y1="17.5" x2="29" y2="17.5" stroke="#fff" stroke-width="0.7"/>
+        <line x1="28" y1="19.5" x2="28" y2="21.5" stroke="#fff" stroke-width="0.9"/>
+        <rect x="26" y="22.5" width="4" height="4" rx="0.5" stroke="#fff" stroke-width="0.9" fill="none"/>
+        <line x1="27" y1="24.5" x2="29" y2="24.5" stroke="#fff" stroke-width="0.7"/>
+      </g>
     </g>
   </g>
 </svg>
