@@ -43,9 +43,9 @@ const stakeholders = [
 
 const StakeholderCarousel = () => {
   return (
-    <section className="py-12 sm:py-16 bg-white">
+    <section className="py-12 sm:py-16 bg-slate-900">
       <div className="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8">
-        <h2 className="text-2xl sm:text-3xl font-bold text-center mb-8 text-slate-900">
+        <h2 className="text-2xl sm:text-3xl font-bold text-center mb-8 text-white">
           Why Stakeholders Love FirmaFracta
         </h2>
         <div className="overflow-x-auto flex space-x-6 pb-4 scrollbar-thin scrollbar-thumb-blue-700 scrollbar-track-slate-800 snap-x">
